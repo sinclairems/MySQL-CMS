@@ -10,6 +10,8 @@ connection.connect((err) => {
 });
 
 // Inquirer prompts
+
+// Options
 const mainMenu = () => {
   inquirer.prompt([
     {
@@ -57,6 +59,8 @@ const mainMenu = () => {
   });
 };
 
+// View Departments
+
 const viewDepartments = () => {
   const query = 'SELECT * FROM department';
   connection.query(query, (err
@@ -66,6 +70,8 @@ const viewDepartments = () => {
     mainMenu();
   });
 }
+
+// View Roles
 
 const viewRoles = () => {
   const query = 'SELECT * FROM role';
@@ -77,6 +83,8 @@ const viewRoles = () => {
   });
 }
 
+// View Employees
+
 const viewEmployees = () => {
   const query = 'SELECT * FROM employee';
   connection.query(query, (err
@@ -86,6 +94,8 @@ const viewEmployees = () => {
     mainMenu();
   });
 }
+
+// Add Department
 
 const addDepartment = () => {
   inquirer.prompt([
@@ -103,6 +113,8 @@ const addDepartment = () => {
     });
   });
 }
+
+// Add Role
 
 const addRole = () => {
   const query = 'SELECT * FROM department';
@@ -144,6 +156,8 @@ const addRole = () => {
   });
 }
 
+// Add Employee
+
 const addEmployee = () => {
   const query = 'SELECT * FROM role';
   connection.query(query, (err
@@ -183,6 +197,8 @@ const addEmployee = () => {
     });
   });
 }
+
+// Update Employee Role
 
 const updateEmployeeRole = () => {
   const query = 'SELECT * FROM employee';
