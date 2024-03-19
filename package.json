@@ -23,6 +23,7 @@
   "dependencies": {
     "inquirer": "^8.2.4",
     "mysql2": "^3.9.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "dotenv": "^16.4.5"
   }
 }
