@@ -1,0 +1,29 @@
+{
+  "name": "mysql-cms",
+  "version": "1.0.0",
+  "description": "CLI CMS for tracking employee database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MySQL-CMS"
+  },
+  "keywords": [
+    "MySQL",
+    "CMS",
+    "CLI",
+    "Inquirer",
+    "Node.js"
+  ],
+  "author": "ErinMS",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.9.2",
+    "express": "^4.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
