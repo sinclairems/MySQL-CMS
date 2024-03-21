@@ -6,9 +6,9 @@ Check out the
 
 
 Here's what it looks like in the command line:
-![Image of shapes.js.](./images/screenshot1.png)
+![Screenshot1](./images/screenshot1.png)
 
-![Image of shapes.test.js.](./images/screenshot2.png)
+![Screenshot2](./images/screenshot2.png)
 
   ## Technologies Used
 
