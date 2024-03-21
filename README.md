@@ -1,22 +1,41 @@
 # MySQL-CMS
-A simple command-line content management system for managers to track employee database
+A simple command-line content management system for managers to track employee database. In the future, I would implement additional functionality such as: update employee manager, view employee by manager, view employee by department, and delete departments, roles, and employees. 
 
-## Link to Walkthrough
-https://drive.google.com/file/d/1HreF63jXN_tCWOu0hgZMp-9JwMC7fhy2/view
+Check out the 
+[Link to Walkthrough Video](https://drive.google.com/file/d/1HreF63jXN_tCWOu0hgZMp-9JwMC7fhy2/view)
 
 
-## Bonus WHAT I WOULD DO IF I HAD MORE TIME
+Here's what it looks like in the command line:
+![Image of shapes.js.](./images/screenshot1.png)
 
-Try to add some additional functionality to your application, such as the ability to do the following:
+![Image of shapes.test.js.](./images/screenshot2.png)
 
-* Update employee managers.
+  ## Technologies Used
 
-* View employees by manager.
+  Express 4.17.1
 
-* View employees by department.
+  Inquirer 8.2.4
 
-* Delete departments, roles, and employees.
+  MySQL 3.9.2
 
-* View the total utilized budget of a department&mdash;in other words, the combined salaries of all employees in that department.
+  dotenv 16.4.5
+
+  chalk 4.0.0
+
+  ## Credits
+
+ * Class notes
+
+* [Config file help](https://github.com/jpd61/employee-tracker/tree/master)
+
+* [NPM Chalk](https://www.npmjs.com/package/chalk)
+
+* Copilot
+
+## License
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+This project is licensed under the MIT license.
+
 
 
